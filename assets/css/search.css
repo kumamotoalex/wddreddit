@@ -5,6 +5,8 @@
 	background: #3062be;
 	padding-left: 30px;
 	padding-top: 20px;
+	margin-left: 150px;
+	display: inline-block;
 }
 
 body{
@@ -19,7 +21,6 @@ body{
 #logo{
 	width: 50%;
 	margin-left: -30px;
-
 }
 
 #reddit-text{
@@ -40,4 +41,13 @@ body{
 	margin-bottom: 10px;
 	color: white;
 	letter-spacing: 3px;
+}
+
+#container {
+	background: #719ae5;
+	width: 650px;
+	height: 100%;
+	margin-left: 380px;
+	padding-left: 100px;
+	display: inline-block;
 }
