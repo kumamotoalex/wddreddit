@@ -26,6 +26,11 @@ body{
 	display: inline-block;
 }
 
+#search {
+	width: 165px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
 
 #logo{
 	width: 50%;
@@ -49,12 +54,27 @@ body{
 #sidebar-content{
 	position: relative;
 	top: -60px;
+	margin-bottom: 10px;
+}
+
+.registration {
+	position: relative;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	border-style: solid;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
 }
 
 .category{
 	font-family: 'Varela Round', sans-serif;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	color: white;
 	letter-spacing: 3px;
 	margin-right: 10px;
