@@ -2,7 +2,7 @@
 	position: fixed;
 	width: 200px;
 	height: 100%;
-	background: #3062be;
+	background: #8b8589;
 	padding-left: 30px;
 	padding-top: 20px;
 }
@@ -12,9 +12,12 @@ body{
 	padding: 0;
 }
 
-#header{
+#header {
+}
+#sidebar-header {
 	display: inline-block;
 }
+
 
 #logo{
 	width: 50%;
@@ -24,18 +27,25 @@ body{
 
 #reddit-text{
 	position: relative;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-right: 20px;
 	color: white;
 	letter-spacing: 3px;
 	font-weight: 700;
-	display: inline-block;
+	float: right;
+	top: -65px;
 
+}
+#sidebar-content{
+	position: relative;
+	top: -60px;
 }
 
 .category{
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: white;
