@@ -54,10 +54,10 @@ body{
 }
 
 #container {
-	background: #719ae5;
-	width: 650px;
+	background: #F0F0F0;
+	width: 675px;
 	height: 100%;
 	margin-left: 380px;
-	padding-left: 100px;
-	display: inline-block;
+	padding: 30px;
+
 }
