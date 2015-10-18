@@ -5,7 +5,7 @@
 	background: #8b8589;
 	padding-left: 30px;
 	padding-top: 20px;
-	margin-left: 150px;
+	margin-left: 10%;
 	display: inline-block;
 }
 
@@ -64,8 +64,11 @@ body{
 
 #container {
 	background: #F0F0F0;
-	width: 675px;
 	height: 100%;
-	margin-left: 380px;
-	padding: 30px;
+	margin-left: 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 250px;
+	padding-right: 10px;
+	margin-right: 10%;
 }
