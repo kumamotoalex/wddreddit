@@ -1,3 +1,69 @@
+#background{
+	position:absolute;
+	z-index: -10;
+	width: 100%;
+}
+
+#background_img{
+	height: 1000px;
+	width:100%;
+	z-index: -10;
+}
+
+#container-back{
+	position: absolute;
+	width: 100%;
+	height: 1500px;
+	background: #F0F0F0;
+	opacity: 0.75;
+	z-index: -3;
+}
+
+#container {
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+/*	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 250px;
+	padding-right: 10px;*/
+	position: relative;
+	z-index: -5;
+}
+
+#topbar {
+	background: #FF7D5C;
+	padding-left: 250px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.topbar-text {
+	color: black;
+	padding: 0px 10px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	display: inline-block;
+
+	font-family: 'Varela Round', sans-serif;
+	font-size: 10px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	border-style: solid;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	border-radius: 10px;
+	text-align: center;
+	border-width: 2px;
+
+
+}
+
+
 #sidebar {
 	position: fixed;
 	width: 200px;
@@ -12,13 +78,14 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'Varela Round', sans-serif;
 }
 
 #header {
 }
 .category:hover {
-	background: #FF5600;
-	transition: background 1.5s ease;
+	background: #FF7D5C;
+	transition: background 0.75s ease;
 	cursor: pointer;
 
 }
@@ -27,7 +94,7 @@ body{
 }
 
 #search {
-	width: 165px;
+	width: 175px;
 	border-radius: 5px;
 	margin-bottom: 10px;
 }
@@ -44,7 +111,7 @@ body{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 20px;
-	color: #FF5600;
+	color: #FF7D5C;
 	letter-spacing: 3px;
 	font-weight: 700;
 	float: right;
@@ -55,6 +122,12 @@ body{
 	position: relative;
 	top: -60px;
 	margin-bottom: 10px;
+}
+
+.registration:hover {
+	background: #FF7D5C;
+	transition: background 0.75s ease;
+	cursor: pointer;
 }
 
 .registration {
@@ -71,6 +144,7 @@ body{
 	border-radius: 10px;
 	padding: 5px;
 	text-align: center;
+	border-width: 2px;
 }
 
 .category{
@@ -82,123 +156,55 @@ body{
 	border-radius: 10px;
 }
 
-#container {
-	background: #F0F0F0;
-	height: 100%;
-	margin-left: 10%;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 250px;
-	padding-right: 10px;
-	margin-right: 10%;
-}
-
-#topbar {
-
-	background: #FF7D5C;
-	
-	padding-left: 50px;
-	margin-right: -10px;
-	margin-left: -20px;
-	margin-top: -30px;
-
-}
-
-#topbar-text {
-	color: black;
-	padding: 0px 10px;
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 30px;
-	display: inline-block;
-
-	font-family: 'Varela Round', sans-serif;
-	font-size: 10px;
-	letter-spacing: 3px;
-	font-weight: 700;
-	border-style: solid;
-	color: white;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-right: 5px;
-	border-radius: 10px;
-	text-align: center;
-
-
-}
-
-#reddit-logo2{
-	width: 500px;
-	height: 150px;
-	padding-left: 100px;
-	margin-top: -20px;
-
-}
-
-#home-search{
-	color:#FF5600;
-	font-family: 'Varela Round', sans-serif;
-	letter-spacing: 3px;
-	font-weight: 700;
-	font-size: 50px;
-	float: right;
-	padding-right: 200px;
-
-}
-
-#search-box{
-	width: 550px;
-	height: 50px;
-	border-radius: 10px;
-	margin-top: 10px;
-	margin-left: 150px;
-	}
-
-.list-container {
-	padding-top: -50px;
-	margin-right:100px;
-	margin-left:100px;
-	padding-bottom: 20px;
-
-}
-
-.list-title {
-	font-family: 'Varela Round', sans-serif;
-	font-size: 20px;
-	font-weight: 100;
-	padding-top:15px;
-	margin-top: 10px;
-}
-
-.list-content {
-	font-family: 'Varela Round', sans-serif;
-	padding-top: -50px;
-	padding-bottom: 20px;
+#post {
+	background-color: #F8F8F8;
 	margin-right: 10px;
-	margin-left:3px;
+	margin-top: 10px;
+	margin-left: 240px;
+	border-radius: 10px;
+	/*box-shadow: 2px 2px 1px #888888;*/
+}
+
+#post-image {
+	width: 19%;
+	display: inline-block;
+	margin: auto;
+	margin: 10px;
+}
+
+#cat-image {
+	width: 100%;
+	border-radius: 50%;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+#post-title {
+	margin-bottom: 5px;
+}
+
+#post-description {
 	margin-top: 5px;
-	margin-bottom: 10px;	
+}
+
+.post-info {
+	opacity: 0.5;
+	display: inline-block;
 }
 
 
 
-.list-item {
-	font-family: 'Varela Round', sans-serif;
-	font-size: 30px;
-	background-color: white;
-	margin-right: 25px;
-	margin-left: 25px;
-	margin-bottom: 10px;
-	padding: 15px;
-	border-radius: 15px;
-
-
-}
-
-#minion1{
-	width: 200px;
-	height: 200px;
-    float:left;
-    padding-right: 20px;
-
+#post-content {
+	width: 75%;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: top;
 }
