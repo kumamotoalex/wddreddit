@@ -1,0 +1,182 @@
+#sidebar {
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #8b8589;
+	padding-left: 30px;
+	padding-top: 20px;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+}
+
+#header {
+}
+.category:hover {
+	background: #FF5600;
+	transition: background 1.5s ease;
+	cursor: pointer;
+
+}
+#sidebar-header {
+	display: inline-block;
+}
+
+#search {
+	width: 165px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+#logo{
+	width: 50%;
+	margin-left: -30px;
+}
+
+#reddit-text{
+	position: relative;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	color: white;
+	letter-spacing: 3px;
+	font-weight: 700;
+	float: right;
+	top: -65px;
+
+}
+#sidebar-content{
+	position: relative;
+	top: -60px;
+	margin-bottom: 10px;
+}
+
+.registration {
+	position: relative;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	border-style: solid;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+.category{
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	letter-spacing: 3px;
+	margin-right: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#container {
+	background: #F0F0F0;
+	height: 100%;
+	margin-left: 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 250px;
+	padding-right: 10px;
+	margin-right: 10%;
+}
+
+#post {
+	background-color: #F8F8F8;
+	margin-right: 10px;
+}
+
+#post-image {
+	width: 19%;
+	display: inline-block;
+	margin: auto;
+	margin: 10px;
+}
+
+#cat-image {
+	width: 100%;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+#post-title {
+	margin-bottom: 5px;
+}
+
+#post-description {
+	margin-top: 5px;
+}
+
+#post-info {
+	opacity: 0.5;
+}
+
+.comment {
+	display: inline-block;
+	background: #F8F8F8;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.rating {
+	display: inline-block;
+	width: 7%;
+	margin-left: 15px;
+	position: relative;
+	vertical-align: top;
+}
+
+#comment-rating {
+	padding-left: 100px;
+}
+
+.comment-content {
+	display: inline-block;
+	width: 90%;
+}
+
+#down-arrow {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid red;
+}
+
+#up-arrow {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid green;
+}
+
+#post-content {
+	width: 75%;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: top;
+}
