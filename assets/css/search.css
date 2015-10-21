@@ -44,7 +44,7 @@ body{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 20px;
-	color: white;
+	color: #FF5600;
 	letter-spacing: 3px;
 	font-weight: 700;
 	float: right;
@@ -91,4 +91,113 @@ body{
 	padding-left: 250px;
 	padding-right: 10px;
 	margin-right: 10%;
+}
+
+#topbar {
+
+	background: #FF7D5C;
+	
+	padding-left: 50px;
+	margin-right: -10px;
+	margin-left: -20px;
+	margin-top: -30px;
+
+}
+
+#topbar-text {
+	color: black;
+	padding: 0px 10px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	display: inline-block;
+
+	font-family: 'Varela Round', sans-serif;
+	font-size: 10px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	border-style: solid;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	border-radius: 10px;
+	text-align: center;
+
+
+}
+
+#reddit-logo2{
+	width: 500px;
+	height: 150px;
+	padding-left: 100px;
+	margin-top: -20px;
+
+}
+
+#home-search{
+	color:#FF5600;
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: 3px;
+	font-weight: 700;
+	font-size: 50px;
+	float: right;
+	padding-right: 200px;
+
+}
+
+#search-box{
+	width: 550px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 150px;
+	}
+
+.list-container {
+	padding-top: -50px;
+	margin-right:100px;
+	margin-left:100px;
+	padding-bottom: 20px;
+
+}
+
+.list-title {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 25px;
+	font-weight: 100;
+	padding-top:15px;
+	margin-top: 10px;
+}
+
+.list-content {
+	font-family: 'Varela Round', sans-serif;
+	padding-top: -50px;
+	padding-bottom: 20px;
+	margin-right: 10px;
+	margin-left:3px;
+	margin-top: 5px;
+	margin-bottom: 10px;	
+}
+
+
+
+.list-item {
+	font-family: 'Varela Round', sans-serif;
+	background-color: white;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	padding: 15px;
+	border-radius: 15px;
+
+
+}
+
+#minion1{
+	width: 75px;
+    height: 75px;
+    float:left;
+    padding-right: 20px;
+
 }
