@@ -164,7 +164,7 @@ body{
 
 .list-title {
 	font-family: 'Varela Round', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 100;
 	padding-top:15px;
 	margin-top: 10px;
@@ -184,6 +184,7 @@ body{
 
 .list-item {
 	font-family: 'Varela Round', sans-serif;
+	font-size: 30px;
 	background-color: white;
 	margin-right: 25px;
 	margin-left: 25px;
@@ -195,8 +196,8 @@ body{
 }
 
 #minion1{
-	width: 75px;
-    height: 75px;
+	width: 200px;
+	height: 200px;
     float:left;
     padding-right: 20px;
 
