@@ -1,11 +1,11 @@
 <html>
 <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-<link rel='stylesheet' type='text/css' href="assets/css/search.css"/>
+<link rel='stylesheet' type='text/css' href="assets/css/search1.css"/>
 <head>
-<title>Search</title>
+<title>List</title>
 </head>
 <body>
-	<div id="background"><img id="background_img" src="assets/img/background7.png"></div>
+	<div id="background"><img id="background_img" src="assets/img/darktriangles.jpg"></div>
 	<div id="sidebar">
 			<div id="sidebar-header">
 				<div id="reddit-logo"><img class="img-scaled-w" id="logo" src="assets/img/reddit-logo.png" /></div>
@@ -29,8 +29,6 @@
 				</div>
 			</div>
 	</div>
-
-
 	<div id="container">
 		<div id="container-back"></div>
 		<div id="topbar">
@@ -38,63 +36,114 @@
 			<div class="topbar-text">NOTIFICATIONS</div>
 			<div class="topbar-text">ADD POST</div>
 		</div>
-
-		<div id="search-area">
+	
+	<div id="search-area">
+		<div id="reddit-logo1"><img class="img-scaled-w1" id="logo1" src="assets/img/reddit-logo.png" /></div>
 			<input id="search-box" placeholder="SEARCH" type="text"></input>
-			<h1 id="below-searchbar">REDDIT SEARCH RESULTS</h1>
-			
+			<h1 id="under-searchbar">REDDIT SEARCH RESULTS</h1>
+	</div>
+		<!-- SEARCH CATEGORY: SUBREDDITS -->
+		<div class="search-category">
+			<div class="search-category-text">
+				Subreddits
+			</div>
+			<div class="search-category-line">
+			</div>
 		</div>
-
-		<div id="post">
-			<div id="post-image"><img id="cat-image" src="assets/img/minion.png" />
+	<!-- SUBREDDIT -->
+		<div class="subreddit">
+			<div class="post-image"><img class = "post-images" src="assets/img/clickme.jpg"/>
+				<div class = "subscribe-button">Subscribe</div>
 			</div>
 			<div id="post-content">
-				<div class="post-title">MINION blocks traffic</div>
-				<div class="post-info">Submitted by pinkyhorse at 5:00pm on 10/16/15</div>
-				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
+				<a href="./assets/img/clickme.jpg"><h1 id="post-title">Reddit Updates Subreddit</h1></a>
+				<p class="post-info">700 subscribers, a community for 3 years</p>
+				<p id="post-description">There is a new way to up and down vote posts on reddit! Simply click the icon/picture next to the post to indicate your approval or disapproval.</p>
+			</div>
+		</div>
+		<!-- SUBREDDIT -->
+		<div class="subreddit">
+			<div class="post-image"><img class = "post-images" src="assets/img/minion.jpg"/>
+				<div class = "subscribe-button">Subscribe</div>
+			</div>
+			<div id="post-content">
+				<a href="./assets/img/clickme.jpg"><h1 id="post-title">Minions Subreddit</h1></a>
+				<p class="post-info">1280 subscribers, a community for 3 years</p>
+				<p id="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</p>
+			</div>
+		</div>
+		<!-- SUBREDDIT -->
+		<div class="subreddit">
+			<div class="post-image"><img class = "post-images" src="assets/img/bluestreaks.jpg"/>
+				<div class = "subscribe-button">Subscribe</div>
+			</div>
+			<div id="post-content">
+				<a href="./assets/img/clickme.jpg"><h1 id="post-title">Desktop Backgrounds Subreddit</h1></a>
+				<p class="post-info">20 subscribers, a community for 6 months</p>
+				<p id="post-description">A subreddit dedicated to sharing the best desktop backgrounds out there.</p>
+			</div>
+		</div>
+	<!-- SEARCH CATEGORY: Posts -->
+		<div class="search-category" >
+			<div class="search-category-text">
+				Posts
+			</div>
+			<div class="search-category-line">
+			</div>
+		</div>
+<!-- INDIVIDUAL POST -->
+		<div class="post">
+			<div class="post-image"><img class = "post-images" src="assets/img/minion.png"/>
+			</div>
+			<div class="picture-button-green" tabindex = "1"></div>
+			<div class="picture-button-red" tabindex = "2"></div>
+			<div class = "upvotes">+792</div>
+			<div id="post-content">
+				<a href="./assets/img/clickme.jpg"><h1 id="post-title">Minion blocks traffic in Dublin</h1></a>
+				<p class="post-info">Submitted by RedditTeam at 5:00pm on 10/16/15</p>
+				<p id="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</p>
+			</div>
+		</div>
+<!-- INDIVIDUAL POST -->
+		<div class="post">
+			<div class="post-image"><img class = "post-images" src="assets/img/minion2.jpg"/>
+			</div>
+			<div class="picture-button-green" tabindex = "3"></div>
+			<div class="picture-button-red" tabindex = "4"></div>
+			<div class = "upvotes">+561</div>
+			<a href="./assets/img/minion.jpg"><div id="post-content">
+				<h1 id="post-title">Minion III movie coming out in 2016???</h1></a>
+				<p class="post-info">Submitted by minionlover at 5:00pm on 10/16/15</p>
+				<p id="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</p>
+			</div>
+		</div>
+<!-- INDIVIDUAL POST -->
+		<div class="post">
+			<div class="post-image"><img class = "post-images" src="assets/img/minion3.jpg"/>
+			</div>
+			<div class="picture-button-green" tabindex = "5"></div>
+			<div class="picture-button-red" tabindex = "6"></div>
+			<div class = "upvotes">+490</div>
+			<div id="post-content">
+				<a href="./assets/img/bluestreaks.jpg"><h1 id="post-title">How to make minion marshmellows in 30 minutes</h1></a>
+				<p class="post-info">Submitted by RedditTeam at 5:00pm on 10/16/15</p>
+				<p id="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</p>
+			</div>
+		</div>
+<!-- INDIVIDUAL POST -->
+		<div class="post">
+			<div class="post-image"><img class = "post-images" src="assets/img/minion4.jpg"/>
+			</div>
+			<div class="picture-button-green" tabindex = "5"></div>
+			<div class="picture-button-red" tabindex = "6"></div>
+			<div class = "upvotes">+490</div>
+			<div id="post-content">
+				<a href="./assets/img/rao.jpg"><h1 id="post-title">Best Birthday Present: Minions toothpaste dispenser</h1></a>
+				<p class="post-info">Submitted by CS70 at 5:00pm on 10/21/15</p>
+				<p id="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</</p>
 			</div>
 		</div>
 
-		<div id="post">
-			<div id="post-image"><img id="cat-image" src="assets/img/minion2.jpg" />
-			</div>
-			<div id="post-content">
-				<div class="post-title">MINION III Movie???</div>
-				<div class="post-info">Submitted by minionlover at 7:15pm on 10/5/15</div>
-				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
-			</div>
-		</div>
-
-		<div id="post">
-			<div id="post-image"><img id="cat-image" src="assets/img/minion3.jpg" />
-			</div>
-			<div id="post-content">
-				<div class="post-title">How to make MINION jellybellys- crafting </div>
-				<div class="post-info">Submitted by iloveminions at 2:00pm on 9/16/15</div>
-				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
-			</div>
-		</div>
-
-		<div id="post">
-			<div id="post-image"><img id="cat-image" src="assets/img/minion4.jpg" />
-			</div>
-			<div id="post-content">
-				<div class="post-title">MINIONS toothpaste dispense</div>
-				<div class="post-info">Submitted by fearminions at 12:00pm on 3/14/15</div>
-				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
-			</div>
-		</div>
-
-			<div id="post">
-			<div id="post-image"><img id="cat-image" src="assets/img/minion5.jpg" />
-			</div>
-			<div id="post-content">
-				<div class="post-title">How to make MINION toy figures</div>
-				<div class="post-info">Submitted by craftlover at 3:00pm on 10/16/15</div>
-				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
-			</div>
-		</div>
-		
 
 	</div>
 </body>

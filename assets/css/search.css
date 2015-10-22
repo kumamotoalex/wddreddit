@@ -5,7 +5,7 @@
 }
 
 #background_img{
-	height: 1000px;
+	height: 1500px;
 	width:100%;
 	z-index: -10;
 }
@@ -38,9 +38,14 @@
 	text-align: right;
 	padding-right: 10px;
 }
+.topbar-text:hover {
+	background: #8b8589;
+	transition: background 0.75s ease;
+	cursor: pointer;
+
+}
 
 .topbar-text {
-	color: black;
 	padding: 0px 10px;
 	font-size: 12px;
 	font-weight: 700;
@@ -76,6 +81,8 @@
 }
 
 body{
+	position: absolute;
+	z-index: -7;
 	margin: 0;
 	padding: 0;
 	font-family: 'Varela Round', sans-serif;
@@ -156,39 +163,98 @@ body{
 	border-radius: 10px;
 }
 
+/*.post:hover{
+	box-shadow: 10px 10px 5px #888888;
+}*/
+.post:hover{
+  -webkit-box-shadow: 0px 5px 5px 3px #888888;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 5px 5px 3px #888888;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 5px 5px 3px #888888;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
+  -ms-transform: translate(2px,1px); /* IE 9 */
+  -moz-transform: translate(2px,1px);
+  -webkit-transform: translate(2px,1px); /* Safari */
+  transform: translate(2px,1px);
 
-#search-box{
-	text-align: center;
-	position: relative;
-	padding-left: 100px;
-	border-radius: 10px;
-	}
+  transition: all 0.2s ease;
 
-#reddit-logo2{
-	width: 100%;
-	border-radius: 50%;
 }
 
-
-#post {
+.post {
+	transition: all 0.2s ease;
+	background-color: #F8F8F8;
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left: 240px;
 	border-radius: 10px;
+	position: relative;
+	padding-bottom: 10px;
 	/*box-shadow: 2px 2px 1px #888888;*/
 }
 
-#post-image {
-	width: 19%;
+
+.post-image {
+	width: 100px;
+	height: 150px;
 	display: inline-block;
 	margin: auto;
 	margin: 10px;
 }
 
-#cat-image {
-	width: 100%;
-	border-radius: 50%;
+.post-images {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+.picture-button-green:focus{
+	transition: border 0.75s ease;
+	border: 5px solid green;
+	cursor: pointer;
+	outline:0;
+	z-index:5;
+}
+
+.picture-button-green{
+	top: 8px;
+	left:8px;
+	position:absolute;
+	width:93px;
+	height: 93px;
+	border-radius: 100%;
+	border: 5px  solid transparent;
+	z-index: 10;
+}
+.picture-button-red:focus{
+	transition: border 0.75s ease;
+	border: 5px solid red;
+	cursor: pointer;
+	outline:0;
+	z-index: 5;
+
+}
+
+.picture-button-red{
+	top: 8px;
+	left:8px;
+	position:absolute;
+	width:93px;
+	height: 93px;
+	border-radius: 100%;
+	border: 5px solid transparent;
+	z-index: 9;
+}
+.upvotes{
+	position: absolute;
+
+	left: 20px;
+	top: 120px;
+	font-family: 'Varela Round', sans-serif;
+	color:#8b8589;
+	font-size: 30px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-align: center;
+	z-index: 1;
 }
 
 h1 {
@@ -200,27 +266,123 @@ p {
 	margin: 0px;
 	padding: 0px;
 }
-
-.post-title {
-	margin-bottom: 5px;
-	font-size: 100px;
-	font-weight: 700;
-	font-size: 100px;
+a {
+	color: black;
+	text-decoration: none;
 }
 
-.post-description {
+#post-title {
+	margin-bottom: 5px;
+}
+
+#post-description {
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .post-info {
-	opacity: 0.5;
+	color: #8b8589;
+	font-size: 12px;
 	display: inline-block;
 }
-
 
 #post-content {
 	width: 75%;
 	display: inline-block;
 	margin-top: 10px;
 	vertical-align: top;
+}
+
+
+.search-category {
+	margin-left: 250px;
+}
+
+.search-category-text {
+	padding-top: 10px;
+	font-size: 24px;
+	font-weight: 700;
+	color: gray;
+}
+
+
+.search-category-line {
+	background-color: #8b8589;
+	height: 3px;
+	margin-right: 10px;
+}
+
+.subreddit {
+	transition: all 0.2s ease;
+	background-color: #F8F8F8;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 240px;
+	border-radius: 10px;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.subreddit:hover{
+  -webkit-box-shadow: 0px 5px 5px 3px #888888;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 5px 5px 3px #888888;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 5px 5px 3px #888888;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  -ms-transform: translate(2px,1px); /* IE 9 */
+  -moz-transform: translate(2px,1px);
+  -webkit-transform: translate(2px,1px); /* Safari */
+  transform: translate(2px,1px);
+
+  transition: all 0.2s ease;
+
+}
+
+.subscribe-button:hover {
+	background-color: #ff5429;
+	transition: all 0.2s ease;
+}
+
+.subscribe-button {
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 3px;
+	background: #FF7D5C;
+	color: white;
+}
+
+#search-area {
+	margin-top: 10px;
+	width: 500px;
+	position: relative;
+	left:430px;
+	margin-bottom: 35px;
+}
+#search-box{
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+	font-size: 15px;
+	width: 400px;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+}
+.img-scaled-w1{
+	position: relative;
+	width: 200px;
+	left:20%;
+}
+#under-searchbar{
+	color: #FF7D5C;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	margin-left: -20px;
+
+}
+#search-box:focus{
+	transition: border 0.25s ease;
+	border: 5px solid #FF7D5C;
+	cursor: pointer;
+	outline:0;
+
 }
