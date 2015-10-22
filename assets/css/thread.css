@@ -159,9 +159,10 @@ body{
 #post {
 	background-color: #F8F8F8;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 240px;
 	border-radius: 10px;
+	margin-bottom: 20px;
 	/*box-shadow: 2px 2px 1px #888888;*/
 }
 
@@ -219,10 +220,14 @@ p {
 
 .rating {
 	display: inline-block;
-	width: 7%;
+	width: 5%;
 	margin-left: 15px;
 	position: relative;
 	vertical-align: top;
+	padding-top: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+
 }
 
 #comment-rating {
@@ -234,20 +239,24 @@ p {
 	width: 90%;
 }
 
-#down-arrow {
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid red;
+.down-arrow {
+	width: 25px;
+	height: 25px;
+	border-width: 0px 3px 3px 0px;
+	border: solid red;
+	border-top-style: none;
+	border-left-style: none;
+	transform: rotate(45deg);
 }
 
-#up-arrow {
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 20px solid green;
+.up-arrow {
+	width: 25px;
+	height: 25px;
+	border-width: 0px 3px 3px 0px;
+	border: solid green;
+	border-bottom-style: none;
+	border-left-style: none;
+	transform: rotate(-45deg);
 }
 
 #post-content {
