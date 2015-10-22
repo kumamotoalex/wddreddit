@@ -285,37 +285,6 @@ a {
 	display: inline-block;
 }
 
-.username {
-	display: inline-block;
-}
-
-.comment {
-	display: inline-block;
-	background: #F8F8F8;
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-left: 240px;
-	padding-top: 10px;
-	padding-right: 10px;
-	border-radius: 10px;
-}
-
-.rating {
-	display: inline-block;
-	width: 7%;
-	margin-left: 15px;
-	position: relative;
-	vertical-align: top;
-}
-
-#comment-rating {
-	padding-left: 100px;
-}
-
-.comment-content {
-	display: inline-block;
-	width: 90%;
-}
 
 #post-content {
 	width: 75%;
