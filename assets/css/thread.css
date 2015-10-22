@@ -39,6 +39,13 @@
 	padding-right: 10px;
 }
 
+.topbar-text:hover {
+	background: #8b8589;
+	transition: background 0.75s ease;
+	cursor: pointer;
+
+}
+
 .topbar-text {
 	color: black;
 	padding: 0px 10px;
@@ -78,6 +85,8 @@
 body{
 	margin: 0;
 	padding: 0;
+	position: absolute;
+	z-index: -7;
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -197,7 +206,8 @@ p {
 }
 
 .post-info {
-	opacity: 0.5;
+	color: #8b8589;
+	font-size: 12px;
 	display: inline-block;
 }
 
@@ -216,22 +226,30 @@ p {
 	padding-right: 10px;
 	padding-bottom: 10px;
 	border-radius: 10px;
+
+}
+
+#indent-1 {
+	margin-left: 300px;
 }
 
 .rating {
 	display: inline-block;
 	width: 5%;
+	margin: auto;
 	margin-left: 15px;
 	position: relative;
 	vertical-align: top;
 	padding-top: 10px;
 	padding-left: 8px;
 	padding-right: 8px;
+	padding-bottom: 10px;
+	text-align: center;
 
 }
 
-#comment-rating {
-	padding-left: 100px;
+.point-value {
+	padding-right: 10px;
 }
 
 .comment-content {
@@ -239,20 +257,32 @@ p {
 	width: 90%;
 }
 
+
+
+.down-arrow:hover {
+	border-width: 0px 7px 7px 0px;
+	transition: background 0.75s ease;
+}
+
 .down-arrow {
 	width: 25px;
 	height: 25px;
-	border-width: 0px 3px 3px 0px;
+	border-width: 4px 4px 4px 4px;
 	border: solid red;
 	border-top-style: none;
 	border-left-style: none;
 	transform: rotate(45deg);
 }
 
+.up-arrow:hover {
+	border-width: 7px 7px 7px 7px;
+	transition: background 0.75s ease;
+}
+
 .up-arrow {
 	width: 25px;
 	height: 25px;
-	border-width: 0px 3px 3px 0px;
+	border-width: 0px 4px 4px 0px;
 	border: solid green;
 	border-bottom-style: none;
 	border-left-style: none;
@@ -264,4 +294,51 @@ p {
 	display: inline-block;
 	margin-top: 10px;
 	vertical-align: top;
+}
+
+#input-holder {
+	margin-left: 10%;
+}
+
+textarea {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+}
+
+#compose-comment {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 150px;
+	height: 200px;
+	text-align: top;
+	width: 73%;
+	/*margin-left: 25%;*/
+	/*margin-right: auto;*/
+	z-index: 5;	
+}
+ 
+#submit-comment:hover {
+	border-color: #8b8589;
+	background-color: #8b8589;
+	transition: background 0.5s ease;
+}
+
+#submit-comment {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	border-style: solid;
+	color: white;
+	margin-top: 240px;
+	margin-left: 700px;
+	margin-right: 25px;
+	width: 150px;
+	padding: 10px;
+	border-radius: 10px;
+	border-color: #FF7D5C;
+	background-color: #FF7D5C;
+	float: right;
+	text-align: center;
+	z-index: 9;
 }

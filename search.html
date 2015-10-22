@@ -1,10 +1,11 @@
 <html>
 <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-<link rel='stylesheet' type='text/css' href="assets/css/search.css"/>
+<link rel='stylesheet' type='text/css' href="assets/css/thread.css"/>
 <head>
 <title>Search</title>
 </head>
 <body>
+	<div id="background"><img id="background_img" src="assets/img/background7.png"></div>
 	<div id="sidebar">
 			<div id="sidebar-header">
 				<div id="reddit-logo"><img class="img-scaled-w" id="logo" src="assets/img/reddit-logo.png" /></div>
@@ -31,36 +32,70 @@
 
 
 	<div id="container">
+		<div id="container-back"></div>
 		<div id="topbar">
-			<div id="topbar-text">MY PROFILE</div>
-			<div id="topbar-text">NOTIFICATIONS</div>
+			<div class="topbar-text">MY PROFILE</div>
+			<div class="topbar-text">NOTIFICATIONS</div>
+			<div class="topbar-text">ADD POST</div>
 		</div>
-		<div id="reddit-logo2"><img class="img-scaled-w" id="logo" src="assets/img/reddit-logo.png" /></div>
-		<div id="home-search">REDDIT SEARCH</div>
-		<div><input id="search-box" placeholder="SEARCH" type="text"></input></div>
-			<div class="list-title">Search Results</div>
-			<div class="list-content">
-				<div class="list-item">
-					<div id="minion1"><img class="img-scaled-w" id="minion1" src="assets/img/minion.jpg" /></div>
-					<a href=“http://imgur.com/cxt2Epd”>Giant Inflatable <b>Minion</b> caused traffic delays in Dublin today</a>
-					<p>891 comments submitted 2 months ago by DJMadScone to /r/funny</p>
-					</div>
-				<div class="list-item">
-					<div id="minion1"><img class="img-scaled-w" id="minion1" src="assets/img/minion.jpg" /></div>
-					<a href=“http://imgur.com/cxt2Epd”>Giant Inflatable <b>Minion</b> caused traffic delays in Dublin today</a>
-					<p>891 comments submitted 2 months ago by DJMadScone to /r/funny</p>
-					</div>
-				<div class="list-item">
-					<div id="minion1"><img class="img-scaled-w" id="minion1" src="assets/img/minion.jpg" /></div>
-					<a href=“http://imgur.com/cxt2Epd”>Giant Inflatable <b>Minion</b> caused traffic delays in Dublin today</a>
-					<p>891 comments submitted 2 months ago by DJMadScone to /r/funny</p>
-					</div>
-				<div class="list-item">
-					<div id="minion1"><img class="img-scaled-w" id="minion1" src="assets/img/minion.jpg" /></div>
-					<a href=“http://imgur.com/cxt2Epd”>Giant Inflatable <b>Minion</b> caused traffic delays in Dublin today</a>
-					<p>891 comments submitted 2 months ago by DJMadScone to /r/funny</p>
-					</div>
+
+		<div id="post">
+		
+			<p><input id="search-box" placeholder="SEARCH" type="text"></input></p>
+			<p><h1>REDDIT SEARCH RESULTS</h1></p>
+			<p></p>
+		</div>
+
+		<div id="post">
+			<div id="post-image"><img id="cat-image" src="assets/img/minion.png" />
+			</div>
+			<div id="post-content">
+				<div class="post-title">MINION blocks traffic</div>
+				<div class="post-info">Submitted by pinkyhorse at 5:00pm on 10/16/15</div>
+				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
 			</div>
 		</div>
+
+		<div id="post">
+			<div id="post-image"><img id="cat-image" src="assets/img/minion2.jpg" />
+			</div>
+			<div id="post-content">
+				<div class="post-title">MINION III Movie???</div>
+				<div class="post-info">Submitted by minionlover at 7:15pm on 10/5/15</div>
+				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
+			</div>
+		</div>
+
+		<div id="post">
+			<div id="post-image"><img id="cat-image" src="assets/img/minion3.jpg" />
+			</div>
+			<div id="post-content">
+				<div class="post-title">How to make MINION jellybellys- crafting </div>
+				<div class="post-info">Submitted by iloveminions at 2:00pm on 9/16/15</div>
+				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
+			</div>
+		</div>
+
+		<div id="post">
+			<div id="post-image"><img id="cat-image" src="assets/img/minion4.jpg" />
+			</div>
+			<div id="post-content">
+				<div class="post-title">MINIONS toothpaste dispense</div>
+				<div class="post-info">Submitted by fearminions at 12:00pm on 3/14/15</div>
+				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
+			</div>
+		</div>
+
+			<div id="post">
+			<div id="post-image"><img id="cat-image" src="assets/img/minion5.jpg" />
+			</div>
+			<div id="post-content">
+				<div class="post-title">How to make MINION toy figures</div>
+				<div class="post-info">Submitted by craftlover at 3:00pm on 10/16/15</div>
+				<div class="post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu molestie massa, et suscipit lectus. Aliquam libero enim, suscipit sed purus ac, ultricies interdum felis.</div>
+			</div>
+		</div>
+		
+
 	</div>
 </body>
