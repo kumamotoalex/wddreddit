@@ -293,3 +293,12 @@ a {
 	margin-top: 10px;
 	vertical-align: top;
 }
+
+#search-area {
+	margin-top: 50px;
+	position: relative;
+	left:500px;
+}
+#search-box{
+	
+}
