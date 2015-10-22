@@ -295,10 +295,36 @@ a {
 }
 
 #search-area {
-	margin-top: 50px;
+	margin-top: 10px;
+	width: 500px;
 	position: relative;
-	left:500px;
+	left:430px;
+	margin-bottom: 50px;
 }
 #search-box{
-	
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+	font-size: 15px;
+	width: 400px;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+}
+.img-scaled-w1{
+	position: relative;
+	width: 200px;
+	left:20%;
+}
+#under-searchbar{
+	color: #FF7D5C;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	margin-left: -20px;
+
+}
+#search-box:focus{
+	transition: border 0.25s ease;
+	border: 5px solid #FF7D5C;
+	cursor: pointer;
+	outline:0;
 }
