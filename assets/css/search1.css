@@ -286,10 +286,65 @@ a {
 	display: inline-block;
 }
 
-
 #post-content {
 	width: 75%;
 	display: inline-block;
 	margin-top: 10px;
 	vertical-align: top;
+}
+
+.search-category {
+	margin-left: 250px;
+}
+
+.search-category-text {
+	padding-top: 10px;
+	font-size: 24px;
+	font-weight: 700;
+	color: gray;
+}
+
+
+.search-category-line {
+	background-color: #8b8589;
+	height: 3px;
+	margin-right: 10px;
+}
+
+.subreddit {
+	transition: all 0.2s ease;
+	background-color: #F8F8F8;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 240px;
+	border-radius: 10px;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.subreddit:hover{
+  -webkit-box-shadow: 0px 5px 5px 3px #888888;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 5px 5px 3px #888888;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 5px 5px 3px #888888;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  -ms-transform: translate(2px,1px); /* IE 9 */
+  -moz-transform: translate(2px,1px);
+  -webkit-transform: translate(2px,1px); /* Safari */
+  transform: translate(2px,1px);
+
+  transition: all 0.2s ease;
+
+}
+
+.subscribe-button:hover {
+	background-color: #33D633;
+	transition: all 0.2s ease;
+}
+
+.subscribe-button {
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 3px;
+	background: #66E066;
 }
