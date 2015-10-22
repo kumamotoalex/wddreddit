@@ -356,6 +356,12 @@ textarea {
 	z-index: 9;
 }
 
+#links:hover {
+	background: #8b8589;
+	transition: background 0.75s ease;
+	cursor: pointer;
+}
+
 #links {
 	text-decoration: none;
 	position: relative;

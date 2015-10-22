@@ -387,6 +387,12 @@ a {
 
 }
 
+#links:hover {
+	background: #8b8589;
+	transition: background 0.75s ease;
+	cursor: pointer;
+}
+
 #links {
 	text-decoration: none;
 	position: relative;
@@ -395,4 +401,8 @@ a {
 	line-height: 30px;
 	border-style: solid;
 	border-width: 2px;
+}
+
+.commentlink{
+	color: #8b8589;
 }
